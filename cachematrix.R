@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSOlve accepts an object returned by a prior call to makeCacheMatrix
 ## 
 ## it caches the value in the 'i' variable in the local environment 
-## of the list, via the setsolve() function
+## of the list, via the setinv() function
 
 ## assumes only invertible matrices are passed.
 
